@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   const [titleIndex, setTitleIndex] = useState(0);
 
   useTitle(titles[titleIndex]); // Set initial title
-
+c
   useEffect(() => {
     // Simulate loading time
     const loadingTimeout = setTimeout(() => setIsLoading(false), 0); // Set loading to false after 1 second
