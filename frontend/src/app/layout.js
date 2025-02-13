@@ -13,9 +13,9 @@ export default function RootLayout({ children }) {
   const [isLoading, setIsLoading] = useState(true); // State to track loading
   const titles = [
     "DigitalPaaji - No.1 Digital Marketing Design Development Agency",
-    "Please come back!",
-    "I am feeling lonely :-(",
-    "Don't you love me anymore?",
+    // "Please come back!",
+    // "I am feeling lonely :-(",
+    // "Don't you love me anymore?",
   ];
   const [titleIndex, setTitleIndex] = useState(0);
 
