@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div>
-      {/* <Banner/> */}
+      <Banner/>
  
       <div className="mb-24" >
       <BannerBottom />
